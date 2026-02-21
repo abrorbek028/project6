@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 70px;
+            background: green;
+
+        }
+
+        nav h1{
+            font-size: 44px;
+            font-family: sans-serif;
+            color: white;
+
+        }
+        nav ul{
+            display: flex;
+            align-items: center;
+            gap: 50px;
+
+        }
+        nav ul li{
+            list-style: none;
+
+        }
+        nav ul li a{
+            font-size: 17px;
+            text-decoration: none;
+            color: white;
+            font-family: sans-serif;
+
+        }
+       
+        body{
+            background: linear-gradient(135deg, #6fd3b3, #47bfa1);
+        }
+
+        form {
+            width: 400px;
+            height: 400px;
+            background: #ffffff;
+            margin: 100px auto;
+            border-radius: 10px;
+            padding: 20px;
+            
+        }
+        form h1 {
+            font-size: 33px;
+            font-family: sans-serif;                    
+            padding: 20px;
+            color: #1b8a78;
+        }
+        form input {
+            width: 350px;
+            height: 35px;
+            border-radius: 10px;
+            border: none;
+            border: 1px solid rgb(109, 70, 70);
+            display: block;
+            padding: 5px;
+            margin: auto;
+            margin-bottom: 15px;
+            background:1px solid #ccc
+        }
+        form button{
+            width: 350px;
+            height: 45px;
+            padding: 10px;
+            border: none;
+            background: #0f8a7a;
+            border-radius: 10px;
+            margin: auto;
+            display: block;
+            font-size: 14px;
+            cursor: pointer;
+            color: #fff;
+            margin-bottom: 25px;
+            display: block;
+            margin: 0 auto;
+        }
+        form a{
+            display: block;
+            margin: 0cap;
+            font-family:serif;
+            color: #666;
+            text-decoration: none;
+            text-align: center;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <header>
+
+        <nav>
+            <h1>Logo</h1>
+
+            <ul>
+
+                <li>
+                    <a href="/">Home</a>
+
+                </li>
+
+                <li>
+                    <a href="../about/about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="../servis/servis.html">Servis</a>
+
+                </li>
+
+                <li>
+                    <a href="../team/team.html">Team</a>
+                </li>
+                <li>
+                    <a href="signup.html">Signup</a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+    <form action="">
+
+        <h1>Login</h1>
+        <input type="email" placeholder="Email" required >
+        <input type="password" placeholder="password" required>
+        <button>Sign in</button>
+        <a href="">Forgot,Username/Password</a>
+        <br>
+        <a href="">Don't have an account? SIgn up</a>
+    
+    </form>
+
+
+</body>
+</html>
